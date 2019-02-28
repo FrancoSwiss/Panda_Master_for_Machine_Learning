@@ -1,6 +1,6 @@
 # Panda_Master_for_Machine_Learning
 
-With business data, we often have numerical and categorical data. In my experience, those are the 8 major challenges:
+With business data, we often have numerical and categorical data. In my experience, those are the 8 major challenges I see:
 
 (1) Missing numerical data.
 
