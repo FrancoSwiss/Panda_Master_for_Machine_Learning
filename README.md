@@ -1,21 +1,11 @@
 # Panda_Master_for_Machine_Learning
 
-With business data, we often have numerical and categorical data. In my experience, those are the 8 major challenges I see:
+With business data, we often have numerical, categorical data, missing data, outliers ... here's a short collection of tricks:
 
-(1) Missing numerical data.
-
-(2) Imputation mean vs. median.
-
-(3) Gaussian vs. skewed distribution.
-
-(4) Missing categorical data at random (MCAR).
-
-(5) Outlier Detection based on Tukey's IQR * 1.5.
-
-(6) Cardinality and Rare Values.
-
-(7) LabelEncoding and One-Hot Encoding.
-
-(8) Normalization vs. Standardization.
-
-I omit some more advanced, but rarer problems such as mixed categorical data and NaN's in the timestamp.
+- When to use mean or median with imputation?
+- How to detect outliers with Tukey's 1.5 IQR?
+- Kaggle trick: how to label outliers.
+- Kaggle trick: how to deal with MCAR / MAR at the same time?
+- When to normalize or standardize?
+- Should we care about cardinality and rare values?
+- .....
